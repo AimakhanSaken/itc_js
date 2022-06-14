@@ -122,14 +122,149 @@
         // }
         
         
-        const s = +prompt("skolko")
+        // const s = +prompt("skolko")
         // x + x + 4x = s
         //6x = s
         //x = s / 6
-        const x  = s / 6
-        alert(x + " " + x + " " + 4*x)
+        // const x  = s / 6
+        // alert(x + " " + x + " " + 4*x)
+
+        // const number1 = +prompt("weight1")
+        // const number2 = +prompt("weight2")
+        // const number3 = +prompt("weight3")
+        // if (number1 > 727 || number2 > 727 || number3 > 727) {
+        //     alert("error")
+        // }   else if (number1 < 94 || number2 < 94 || number3 < 94) {
+        //     alert("error")
+        // }   else {
+        //     alert(Math.max(number1, number2, number3))    
+        // }
+
+        //cikly-----------------------------------------------------------------------
+        //FOR у цыкла фор (условно) есть точка А начало и точка Б конец. Стартуем i 0 и до 499
+        // for (let i = 0; i < 500; i++) {
+        //     console.log(i)
+        // }
+        // for (let i = 500; i >= 0; i=i-2) {
+        //     console.log(i)
+        // }
+
+        //WHILE 
+        // let i = 0
+        // while(i < 100){
+        //     console.log(i)
+        //     i++;
+        // }
         
+        //zadachi
+
+        // const word = prompt("word: ")
+        // const firstLetter = word[0];
+        // const lastLetter = word[word.length-1];
+
+        // let count = 0;
+
+        // if (word.length < 10) {
+        //     alert(word)
+        // }   else {
+        //     for (let i = 1; i < word.length-1; i++) {
+        //         count++;
+        //     }
+        //     alert(firstLetter + "" + count + "" + lastLetter)
+        // }
+        //-------------------------------------------------------------------------
+        // const monety = +prompt("monet: ")
+
+        // let count = 0;
         
+        // for (let i = 0; i < monety; i++) {
+        //     const coin = +prompt("storona")
+        //     if (coin === 0) {
+        //         count++
+        //     } 
+        // }
+
+        // alert(count)
+
+        // for (let i = 0; i <= 1000; i++) {
+        //     if (i % 3 === 0 && i % 5 === 0) {
+        //         console.log("divided 3 and 5")
+        //     }   else if (i % 3 === 0) {
+        //         console.log("divided 3")
+        //     }   else if (i % 5 === 0) {
+        //         console.log("divided 5")
+        //     }   else {
+        //         console.log(i)
+        //     }
+        // }
+        //-------------------------------------------------------------------
+        // const name = prompt("pervaya bykva imeni: ")
+        // let countA = 0
+        // let countN = 0
+
+        // for (let i = 0; i <= name.length; i++) {
+        //     if (name[i] === "A") {
+        //         countA++
+        //     } else if (name[i] === "N") {
+        //         countN++
+        //     } 
+        // }
+        // if (countA > countN) {
+        //     alert("Anton win")
+        // }   else if (countN > countA) {
+        //     alert("Nur win")
+        // }   else {
+        //     alert("Draw")
+        // }
+        //--------------------------------------------------------------
+        // let check = false
+
+        // let answer = +prompt("9 + 5 = ?");
+
+        // while (check === false) {
+        //     if (answer === 14) {
+        //         check = true;
+        //         alert("True answer")
+        //     } else {
+        //         answer = +prompt("Try again")
+        //     }
+        // }
+
+        //---------------------------------------------------
+
+        // let check = false
+
+        // let number = (Math.floor(Math.random()*100))
+
+        // while (check === false) {
+        //     const guess = +prompt("Ygaday chislo")
+        //     if (number === guess) {
+        //         check = true;
+        //         alert("Right!")
+        //     }   else if (number > guess) {
+        //         alert("it is too low")
+        //     }   else if (number < guess) {
+        //         alert("it is too hight")
+        //     }
+        // }
+
+        //-----------------------------------------------------
+
+        let check = false;
+        let count = 0;
+
+        while (check === false) {
+            const number = +prompt("number")
+            if (number === 0) {
+                check = true;
+                alert(count)
+            } else {
+                count = count + number;
+            }
+        }
+
+        
+
     </script>
 </body>
 </html>
