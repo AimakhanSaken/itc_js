@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <script>
+        const word = prompt("word")
+        function checkPalindrom(word) {
+            const len = word.length;
+            for (let i = 0; i < len/2; i++) {
+                if (word[i] !== word[len-1 -i]) {
+                    alert("not a palindrome")
+                }
+            }
+            alert("palindrome")
+        }
+        console.log(checkPalindrom(word))
+    </script> -->
+    <!-- <script>
+        const word = prompt("word")
+        
+        function vowels(word) {
+            let count = 0;
+            const vowelsL = ['a', 'e', 'i', 'o', 'u'];
+
+            for (let char of word.toLowerCase()) {
+                if (vowelsL.includes(char)) {
+                    count += 1;
+                }
+            }
+            return count;
+        }
+        console.log(vowels(word))
+        
+    </script> -->
+    <!-- <script>
+        function vowels(word) {
+            let count = 0;
+            for (let i = 0; i < word.length; i++) {
+                if (word[i] === "a" || word[i] === "i" || word[i] === "e") {
+                    count++
+                }
+            }
+            console.log(count)
+        }
+    </script> -->
+    <script>
+        function letterCount (word, letter) {
+            let count = 0;
+            for (let i = 0; i < word.length; i++) {
+                if (word[i] === letter) {
+                    count++
+                }
+            }
+            console.log(count)
+        }
+        letterCount("first letter", "e")
+    </script>
+</body>
+</html>

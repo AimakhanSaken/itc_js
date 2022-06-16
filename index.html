@@ -250,21 +250,228 @@
 
         //-----------------------------------------------------
 
-        let check = false;
-        let count = 0;
+        // let check = false;
+        // let count = 0;
 
-        while (check === false) {
-            const number = +prompt("number")
-            if (number === 0) {
-                check = true;
-                alert(count)
-            } else {
-                count = count + number;
-            }
-        }
+        // while (check === false) {
+        //     const number = +prompt("number")
+        //     if (number === 0) {
+        //         check = true;
+        //         alert(count)
+        //     } else {
+        //         count = count + number;
+        //     }
+        // }
+        //HW-------------------------------------------------------
 
+        // let positiveCounter = 0;
+        // let negativeCounter = 0;
+        // let total = 0;
+        // let check = false;
+
+        // while (!check) {
+        //     const number = +prompt("number")
+        //     total += number;
+        //     if (number === 0) {
+        //         check = true;
+        //     }   else {
+        //         if (number > 0) {
+        //             positiveCounter++;
+        //         }   else {
+        //             negativeCounter++;
+        //         }
+        //     }
+        // }
+        // console.log("positive number is: " + positiveCounter);
+        // console.log("negative number is: " + negativeCounter);
+        // console.log("total is: " + total);
+        // console.log("average is: ", total / (positiveCounter + negativeCounter) );
+        //-------------------------------------------------------------------------------
+        // for (let i = 100; i <= 1000; i++) {
+        //     if (i % 5 === 0 && i % 6 === 0) {
+        //         console.log(i)
+        //     }
+        // }
+
+        //--------------------------------------------------------------------------------
+        // for (let i = 100; i <= 200; i++) {
+        //     if (i % 5 === 0 && i % 6 !== 0 || i % 5 !== 0 && i % 6 === 0) {
+        //         console.log(i)
+        //     }
+        // }
+        //--------------------------------------------------------------------------------
+
+        //SWITCH---------------------nado viychit----------------------------------------
         
+        // let check = false
+        // let max = 0;
+        // while (!check) {
+        //     const number = +prompt("number: ")
+        //     if (number === 0) {
+        //         check = true
+        //     } else {
+        //         if (number > max && number !== 0) {
+        //             max = number;
+        //         }
+        //     }
+        // }
+        //FUNCTION-------------------------------------------------------------------------
+        // const age = +prompt("your age ?")
+        // console.log(checkAge(age))
 
+        // function checkAge(age) {
+        //     if (age >= 18) {
+        //         return 'yes'
+        //     }   else {
+        //         return 'no'
+        //     }
+        // }
+
+        // const number1 = +prompt("number1")
+        // const number2 = +prompt("number2")
+        // console.log(sum(number1, number2))
+
+        // function sum(number1, number2) {
+        //     let count = 0
+        //     for (let i = number1; i <= number2; i++) {
+        //         count = count + i
+        //     }
+        //     return count
+        // }
+
+        // const number1 = +prompt("number1")
+        // const number2 = +prompt("number2")
+
+        // function delenie(number1, number2) {
+        //     let min = Math.min(number1, number2);
+        //     for (let i = min; i >= 0; i--) {
+        //         if (number1 % i === 0 && number2 % i === 0) {
+        //             return i
+        //         }
+        //     }
+        // }
+
+        // console.log(delenie(number1, number2))
+        //-----------------------------------------------------------------------
+        // const number = +prompt("number")
+        
+        // function digit(number) {
+        //     let count = 0;
+        //     const numberString = String(number);
+        //     for (let i = 0; i < numberString.length; i++) {
+        //         count = count + Number(numberString[i])
+        //     }
+        //     return count;
+        // }
+        // console.log(digit(number))
+        //------------------------------------------------------------------------
+        
+        // const score = +prompt("Kakoy y vas ball za examin ?")
+
+        // function examScore(score) {
+        //     if (score >= 90 && score <= 100) {
+        //         return("A")
+        //   } else if (score >= 80 && score < 90) {
+        //         return("B")
+        //   } else if (score >= 70 && score < 80) {
+        //         return("C")
+        //   } else if (score >= 60 && score < 70) {
+        //         return("D") 
+        //   } else {
+        //         return("False")
+        //   }
+        // }
+        // alert(examScore(score))
+        //-----------------------------------------------------------------------------
+
+        //-------------Array-----------------------------------------------------------
+        // const size = +prompt("size of array")
+        // const numbers = [];
+
+
+        // for (let i = 0; i < size; i++) {
+        //     const number = +prompt("enter the numbers")
+        //     numbers.push(number);
+        // }
+
+        // let total = 0;
+
+        // numbers.map(number => {
+        //     total = total + number;
+        // })
+
+        // let average = total / numbers.length;
+
+        // let countMoreAverage = 0;
+        // numbers.map(number => {
+        //     if (number > average) {
+        //         countMoreAverage++
+        //     }
+        // })
+        
+        // console.log("average is" + average);
+        // console.log("number of element above the average" + countMoreAverage)
+
+        //---------------------------------------------------------------------
+
+        // const numbers = [2, 3.4, 5, 1.7, 23, 7, 2.8]
+        // let minArr = numbers.map(item => Math.min(...numbers))
+        // console.log(minArr)
+
+        // const numbers = [2, 3.4, 5, 1.7, 23, 7, 2.8];
+        // const sorted = numbers.sort((a, b) => a-b);
+        // console.log(sorted)
+        //----------------------------------------------------------------------
+
+        // const array = [2, 3.4, 5, 1.7, 23, 7, 2.8, 2, 5]
+        // let newArr = []
+        
+        // array.map(item => {
+        //     if (!newArr.includes(item)) {
+        //         newArr.push(item)
+        //     }
+        // })
+
+        //---------------------------------------------------------------------
+
+        //concat splice viychit
+
+        // const number = +prompt("number of students")
+        // const scores = [];
+
+
+        // for (let i = 0; i < number; i++) {
+        //     const studentsScores = +prompt("enter the scores")
+        //     scores.push(studentsScores);
+        // }
+        // const sorted = scores.sort((a, b) => a-b)
+        // const max = sorted[sorted.length-1]
+        // scores.map((studentsScores, index) => {
+        //     const s = max - studentsScores;
+        //     let mark = "";
+        //     if (s <= 10) {
+        //         mark = "A"
+        //     } else if (s <= 20) {
+        //         mark = "B"
+        //     } else if (s <= 30) {
+        //         mark = "C"
+        //     } else if (s <= 40) {
+        //         mark = "D"
+        //     } else {
+        //         mark = "F"
+        //     }
+        //     console.log("student" + index + " score is " + studentsScores + " and it's " + mark)
+        // })
+        //--------------------------------MAP----------------------------------
+        const temp = [0, 4, 5, 6, 3, 2, 10, 5, 3, -1, -4, -2]
+
+        const farenheit = [];
+
+        let tF = temp.map(item => {
+            console.log(item);
+            return 10+item*1.8
+        })
+        console.log(tF)
     </script>
 </body>
 </html>
